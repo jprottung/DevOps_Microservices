@@ -1,0 +1,16 @@
+First Run:
+
+pod/udacity-microservices-project created
+NAME                            READY   STATUS              RESTARTS   AGE
+udacity-microservices-project   0/1     ContainerCreating   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+
+
+Second Run:
+
+Error from server (AlreadyExists): pods "udacity-microservices-project" already exists
+NAME                            READY   STATUS    RESTARTS   AGE
+udacity-microservices-project   1/1     Running   0          40s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
