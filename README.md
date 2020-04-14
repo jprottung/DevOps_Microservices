@@ -40,3 +40,10 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Script explanation
+
+* `./run_docker.sh`: runs the webapp in the docker environment
+* `./run_kubernetes.sh`: runs the webapp within kubernetes using kubectl
+* `./make_prediction.sh`: connects to localhost:8000 to get a prediction value
+* `./upload_docker.sh`: uploads the docker file to the according docker hub repository
